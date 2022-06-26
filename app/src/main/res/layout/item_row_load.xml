@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    android:background="@drawable/listbackground"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <View
+            android:id="@+id/txt_policlinic"
+            android:layout_width="110dp"
+            android:layout_height="20dp"
+            android:layout_marginBottom="4dp"
+            android:background="@color/place_holder"
+            android:padding="3dp"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <View
+            android:id="@+id/txt_title"
+            android:layout_width="110dp"
+            android:layout_height="20dp"
+            android:layout_marginBottom="4dp"
+            android:background="@color/place_holder"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <View
+            android:id="@+id/txt_description"
+            android:layout_width="250dp"
+            android:layout_height="16dp"
+            android:background="@color/place_holder"
+            android:textSize="15sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="60dp"
+                android:layout_height="20dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginBottom="4dp"
+                android:background="@color/place_holder"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="60dp"
+                android:layout_height="20dp"
+                android:layout_marginBottom="4dp"
+                android:background="@color/place_holder"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginEnd="30dp"/>
+
+            <View
+                android:layout_width="60dp"
+                android:layout_height="20dp"
+                android:layout_marginBottom="4dp"
+                android:background="@color/place_holder"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

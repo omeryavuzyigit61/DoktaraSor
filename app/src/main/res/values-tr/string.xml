@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Doktara Sor</string>
+    <string name="email">EMAIL</string>
+    <string name="password">Şifre</string>
+    <string name="login">Giriş</string>
+    <string name="forgot_password">Şifremi Unuttum</string>
+    <string name="don_t_have_an_account">Hesabınız yok mu?</string>
+    <string name="register">Kayıt ol</string>
+    <string name="sign_in_with_google">Google ile giriş</string>
+    <string name="please_sign_in_to_continue">Devam etmek için giriş yapın</string>
+    <string name="create_account">Hesap Oluştur</string>
+    <string name="age">Yaş</string>
+    <string name="confirm_password">Şifre Tekrar</string>
+    <string name="sign_up">Kayıt ol</string>
+    <string name="full_name">Ad ve Soyad</string>
+    <string name="submit">Gönder</string>
+    <string name="home">Ev</string>
+    <string name="list">Liste</string>
+    <string name="profile">Profil</string>
+    <string name="page1">Home Fragment</string>
+    <string name="page2">List Fragment</string>
+    <string name="page3">Profile Fragment</string>
+    <string name="name">Ad</string>
+    <string name="omer_yavuzyigit">Ömer Yavuzyiğit</string>
+    <string name="profile_name_explanation">Bu sizin kullanıcı adınız veya kimliğiniz değil. Bu isim Doktora Sor uygulamasına giriş yapan kişiler tarafından görüntülenmektedir.</string>
+    <string name="bize_heryer_trabzon">Bize HerYer Trabzon</string>
+    <string name="about_me">Hakkımda</string>
+    <string name="phone">Telefon</string>
+    <string name="about">Hakkında</string>
+    <string name="cancel">Çıkış</string>
+    <string name="save">Kaydet</string>
+    <string name="add_about_me">Hakkımda ekle</string>
+    <string name="title">Başlık</string>
+    <string name="text">Yazı</string>
+    <string name="enter_yor_name">Adınızı giriniz</string>
+    <string name="log_out">Çıkış Yap</string>
+    <string name="image">Resim</string>
+    <string name="please_report_your_problem">Lütfen probleminizi giriniz</string>
+    <string name="description">Açıklama</string>
+    <string name="doctor">Doktor</string>
+    <string name="policlinic">Polikinik</string>
+    <string name="choose_a_polyclinic">Bir poliklinik seçin</string>
+    <string name="update_succes">Başarıyla güncellendi</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="List_title">Sorunlarım</string>
+    <string name="succesful_save">Veriler başarıyla kaydedildi.</string>
+    <string name="user">Kullanıcı</string>
+    <string name="google_sigin_failed">Google Oturum Açma başarısız oldu, kullanıcı arayüzünü uygun şekilde güncelleyin</string>
+    <string name="password_and_password_replay_mismatch">Şifre ve onay şifresi aynı olmalıdır</string>
+    <string name="cannot_be_blank">Boş bırakılamaz</string>
+    <string name="success">Başarılı</string>
+    <string name="pattern_password_error">En az bir sayı, bir küçük harf, bir büyük harf, boşluksuz ve en az 8 karakter</string>
+    <string name="please_enter_email">Lütfen e-posta giriniz</string>
+    <string name="please_enter_password">Lütfen şifrenizi giriniz</string>
+    <string name="document_error">Belgeler alınırken hata oluştu.</string>
+    <string name="please_enter_policlinic">Please enter policlinic.</string>
+    <string name="please_enter_title">Please enter title.</string>
+    <string name="please_enter_description">Please enter description.</string>
+    <string name="image_uploaded_successfully">Resminiz başarıyla yüklendi</string>
+    <string name="image_uploaded_error">Resminiz yüklenirken bir sorunla karşılaşıldı.</string>
+    <string name="select_image">Lütfen yüklenecek resmi seçin</string>
+    <string name="storage_permission_error">Oops, Depolama izninizi redddettiniz. Ayarlardan buna izin verebilirsiniz</string>
+    <string name="image_selection_failed">Resim seçilirken bir hata ile karşılaşıldı</string>
+    <string name="doctor_list_title">Problemler</string>
+    <string name="enter_your_answer">Cevabını giriniz</string>
+    <string name="answer">Cevap</string>
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer </string>
+    <string name="answered">Cevaplandı</string>
+    <string name="not_answered">Cevaplanmadı</string>
+    <string name="all">Tümü</string>
+    <string name="ascending">Artan</string>
+    <string name="descending">Azalan</string>
+    <string name="delete">Sil</string>
+    <string name="error_getting">Belgeler alınırken hata oluştu.</string>
+    <string name="sory">Olmadı, hayatına küs belki bir zaman tekrar dene olur. Yeterki o olmaz demesin</string>
+    <string name="success_logged">Başarıyla giriş yaptınız.</string>
+    <string name="registed_failed">Kayıt Hatası</string>
+    <string name="error_user_control">Kullanıcılar tablosuna bağlanırken hatayla karşılaşıldı</string>
+    <string name="cant_ask_questions">Bugün zaten soru sordunuz tekrar soramazsınız.\nSoru sormak istiyorsanız bügün sorduğunuz diğer soruyu silebilirsiniz</string>
+    <string name="accept">Onayla</string>
+    <string name="decline">Reddet</string>
+    <string name="standart_seen">Yeni</string>
+    <string name="asked">Sorulan Sorular</string>
+    <string name="answeredQue">Cevaplanan Sorular</string>
+
+    <string-array name="doctorlist">
+        <item>Kulak,burun,boğaz</item>
+        <item>Göz</item>
+        <item>El Cerrahisi</item>
+        <item>Diş Hekimi</item>
+        <item>Endodonti</item>
+        <item>Rehabilitasyon</item>
+        <item>Gastroenteroloji Cerrahisi</item>
+        <item>Göğüs Cerrahisi</item>
+        <item>Göğüs Hastalıkları</item>
+        <item>Hematoloji</item>
+        <item>İç Hastalıkları</item>
+        <item>Jinekolojik Onkoloji Cerrahisi</item>
+        <item>Kalp ve DamarCerrahisi</item>
+        <item>Kardiyoloji</item>
+        <item>Nefroloji</item>
+        <item>Neonatoloji</item>
+        <item>Nöroloji</item>
+        <item>Kadın Hastalıkları ve Doğum</item>
+        <item>Ortodonti</item>
+        <item>Peritanoloji</item>
+        <item>Estetik Cerrahi</item>
+        <item>Radyasyon Onkolojisi</item>
+        <item>Romatoloji</item>
+        <item>Üroloji</item>
+    </string-array>
+</resources>

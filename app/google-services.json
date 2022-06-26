@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "787821015842",
+    "project_id": "doktarasor",
+    "storage_bucket": "doktarasor.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:787821015842:android:48f72be74f59a812976b7b",
+        "android_client_info": {
+          "package_name": "com.dombikpanda.doktarasor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "787821015842-jl68ed4orknobhmp3q9cs2cil431ctag.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dombikpanda.doktarasor",
+            "certificate_hash": "e4369efc8f9b1e87f54a4e6f50126630887af4b9"
+          }
+        },
+        {
+          "client_id": "787821015842-hda9affnjfqvcviflsdrg8fm5v3m3tn7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCK49b0KheKr7h_6IMNGXveOi-56Gl9eA0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "787821015842-hda9affnjfqvcviflsdrg8fm5v3m3tn7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
