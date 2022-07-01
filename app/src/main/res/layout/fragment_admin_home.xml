@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@color/white"
     android:orientation="vertical"
-    tools:context=".view.fragment.AdminHomeFragment">
+    tools:context=".ui.view.fragment.AdminHomeFragment">
 
     <com.github.mikephil.charting.charts.PieChart
         android:id="@+id/pie_chart_view"

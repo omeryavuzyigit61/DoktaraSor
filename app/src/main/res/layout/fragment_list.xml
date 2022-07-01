@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/appbackground"
-    tools:context=".view.fragment.ListFragment">
+    tools:context=".ui.view.fragment.ListFragment">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/top_menu"

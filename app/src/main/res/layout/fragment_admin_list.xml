@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:background="@color/admin_background_color"
     android:orientation="vertical"
-    tools:context=".view.fragment.AdminListFragment">
+    tools:context=".ui.view.fragment.AdminListFragment">
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

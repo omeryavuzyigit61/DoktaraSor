@@ -7,17 +7,17 @@
 
     <fragment
         android:id="@+id/profileFragment"
-        android:name="com.dombikpanda.doktarasor.view.fragment.ProfileFragment"
+        android:name="com.dombikpanda.doktarasor.ui.view.fragment.ProfileFragment"
         android:label="fragment_profile"
         tools:layout="@layout/fragment_profile" />
     <fragment
         android:id="@+id/doctorHomeFragment"
-        android:name="com.dombikpanda.doktarasor.view.fragment.DoctorHomeFragment"
+        android:name="com.dombikpanda.doktarasor.ui.view.fragment.DoctorHomeFragment"
         android:label="fragment_doctor_home"
         tools:layout="@layout/fragment_doctor_home" />
     <fragment
         android:id="@+id/doctorListFragment"
-        android:name="com.dombikpanda.doktarasor.view.fragment.DoctorListFragment"
+        android:name="com.dombikpanda.doktarasor.ui.view.fragment.DoctorListFragment"
         android:label="fragment_doctor_list"
         tools:layout="@layout/fragment_doctor_list" />
 </navigation>

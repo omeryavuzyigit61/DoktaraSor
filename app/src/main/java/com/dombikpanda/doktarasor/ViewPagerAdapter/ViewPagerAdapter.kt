@@ -2,7 +2,7 @@ package com.dombikpanda.doktarasor.ViewPagerAdapter
 
 import androidx.fragment.app.Fragment
 import androidx.viewpager2.adapter.FragmentStateAdapter
-import com.dombikpanda.doktarasor.view.activity.HomeActivity
+import com.dombikpanda.doktarasor.ui.view.activity.HomeActivity
 
 class ViewPagerAdapter(
     val items:ArrayList<Fragment>,

@@ -12,11 +12,12 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:requestLegacyExternalStorage="true"
+        android:name=".ui.application.HomeApplication"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.DoktaraSor">
         <activity
-            android:name=".view.activity.AdminActivity"
+            android:name="com.dombikpanda.doktarasor.ui.view.activity.AdminActivity"
             android:exported="false" />
 
         <meta-data
@@ -24,29 +25,29 @@
             android:resource="@drawable/ic_stat_name" />
 
         <activity
-            android:name=".view.activity.DoctorAnswerActivity"
+            android:name="com.dombikpanda.doktarasor.ui.view.activity.DoctorAnswerActivity"
             android:exported="false" />
         <activity
-            android:name=".view.activity.DoctorHomeActivity"
+            android:name="com.dombikpanda.doktarasor.ui.view.activity.DoctorHomeActivity"
             android:exported="false" />
         <activity
-            android:name=".view.activity.AnswerActivity"
+            android:name="com.dombikpanda.doktarasor.ui.view.activity.AnswerActivity"
             android:exported="false" />
         <activity
-            android:name=".view.activity.ForgotActivity"
+            android:name="com.dombikpanda.doktarasor.ui.view.activity.ForgotActivity"
             android:exported="false" />
         <activity
-            android:name=".view.activity.HomeActivity"
+            android:name="com.dombikpanda.doktarasor.ui.view.activity.HomeActivity"
             android:exported="false" />
         <activity
-            android:name=".view.activity.RegisterActivity"
+            android:name="com.dombikpanda.doktarasor.ui.view.activity.RegisterActivity"
             android:exported="false" />
         <activity
-            android:name=".view.activity.LoginActivity"
+            android:name="com.dombikpanda.doktarasor.ui.view.activity.LoginActivity"
             android:exported="false"
             android:label="Login" />
         <activity
-            android:name=".view.activity.MainActivity"
+            android:name="com.dombikpanda.doktarasor.ui.view.activity.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

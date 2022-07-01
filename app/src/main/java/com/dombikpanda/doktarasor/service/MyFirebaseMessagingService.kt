@@ -10,8 +10,8 @@ import androidx.annotation.RequiresApi
 import androidx.core.app.NotificationCompat
 import androidx.core.app.NotificationManagerCompat
 import com.dombikpanda.doktarasor.R
-import com.dombikpanda.doktarasor.repository.CrudRepository
-import com.dombikpanda.doktarasor.view.activity.MainActivity
+import com.dombikpanda.doktarasor.data.repository.CrudRepository
+import com.dombikpanda.doktarasor.ui.view.activity.MainActivity
 import com.google.firebase.firestore.ktx.firestore
 import com.google.firebase.ktx.Firebase
 
@@ -45,9 +45,9 @@ class MyFirebaseMessagingService : Service() {
 
     private val crudRepository = CrudRepository()
     private fun questionNotification() {
-        val shared = getSharedPreferences("kontrol", MODE_PRIVATE)
-        val control = shared.getLong("date", 0)
-        val collection = Firebase.firestore.collection("questions")
+        /*val shared = getSharedPreferences("kontrol", MODE_PRIVATE)
+        val control = shared.getLong("date", 0)*/
+        /*val collection = Firebase.firestore.collection("questions")
         collection
             .addSnapshotListener { value, error ->
                 error.let {
@@ -56,7 +56,7 @@ class MyFirebaseMessagingService : Service() {
                 value?.let { result ->
                     for (document in result) {
                         if (document["userid"] == crudRepository.getFirebaseAuth().uid) {
-                            if (document["cevapdurum"] == true && document["messageDurum"] == true && document["date"] == control) {
+                            if (document["cevapdurum"] == true && document["messageDurum"] == true *//*&& document["date"] == control*//*) {
                                 if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
                                     createNotification()
                                 }
@@ -65,7 +65,7 @@ class MyFirebaseMessagingService : Service() {
                         }
                     }
                 }
-            }
+            }*/
     }
 
 

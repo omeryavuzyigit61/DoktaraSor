@@ -6,7 +6,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@drawable/backgroundprofile"
-        tools:context=".view.fragment.ProfileFragment">
+        tools:context=".ui.view.fragment.ProfileFragment">
 
     <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/profileImage"
