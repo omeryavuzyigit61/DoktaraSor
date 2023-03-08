@@ -69,9 +69,9 @@ Contributions are what make the open source community such an amazing place to b
 ### Creating A Pull Request
 
 1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
+2. Create your Feature Branch (`git checkout -b feature/DoktoraSor`)
+3. Commit your Changes (`git commit -m 'Add some DoktoraSor'`)
+4. Push to the Branch (`git push origin feature/DoktoraSor`)
 5. Open a Pull Request
 
 ## License
@@ -80,7 +80,7 @@ Distributed under the MIT License. See [LICENSE](https://github.com/omeryavuzyig
 
 ## Authors
 
-* **Ömer Yavuzyiğit** - *Android Developer* - [Ömer Yavuzyiğit](https://github.com/omeryavuzyigit61/) - **
+* **Ömer Yavuzyiğit** - *Android Developer* - [Ömer Yavuzyiğit](https://github.com/omeryavuzyigit61/) - 
 
 ## Acknowledgements
 
