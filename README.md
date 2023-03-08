@@ -8,10 +8,7 @@
 
   <p align="center">
     This app is an app where users write their problems and doctors answer
-    <br/>
-    <br/>
-    <br/>
-    <br/>
+
     <a href="https://github.com/omeryavuzyigit61/DoktoraSor">View Demo</a>
     .
     <a href="https://github.com/omeryavuzyigit61/DoktoraSor/issues">Report Bug</a>
